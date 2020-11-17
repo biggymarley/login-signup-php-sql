@@ -1,5 +1,5 @@
 html{
-    background: -webkit-linear-gradient(0, #26ff00 33%, #006408 100%);
+    background: -webkit-linear-gradient(0, #26ff009f 33%, #00640877 100%);
 }
 
 body{
@@ -29,18 +29,15 @@ h2
 }
 #button
 {
-    color: 	#00b9df;
-    background: -webkit-linear-gradient(0, #000ecc 33%, #00aeff 100%);
+    color: 	#dfdb00;
+    background: -webkit-linear-gradient(0, #000ecc41 33%, #00aeff44 100%);
     margin-top: 5%;
-    border-style: solid;
-    border-color: blue;
 
 }
 #bar
 {
     width: 100%;
-    background: -webkit-linear-gradient(0, #26ff00 33%, #006408 100%);
-    border-style: none;
+    background: -webkit-linear-gradient(180deg, #ff00008a 15%, green 50%,rgba(255, 255, 0, 0.52) 85%);
     text-align: center;
 }
 #logo
@@ -55,7 +52,7 @@ h2
 {
     width: 100px;
     background: hsla(236, 100%, 40%, 0) ;
-    color:#df9600;
+    color:#000000;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 20px;
@@ -69,14 +66,12 @@ h2
 }
 #barb:hover
 {
-    color: black;
+    color: rgb(0, 38, 255);
 }
 #button:hover
 {
     color: 	black;
-    background: -webkit-linear-gradient(0, #00aeff 33%, #000ecc 100%);
-    border-style: solid;
-    border-color: blue;
+    background: -webkit-linear-gradient(0, #00aeff60 33%, #000ecc44 100%);
 
 }
 
@@ -88,8 +83,8 @@ h2
 
 section
 {
-    background: hsla(241, 100%, 14%, 0.787) ;
     width: 80%;
+    border-radius: 5%;
     height: 100%;
     margin: 0 auto;
 }
