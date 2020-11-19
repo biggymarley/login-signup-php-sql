@@ -24,7 +24,7 @@ input
 }
 h2
 {
-    color:#df9600;
+    color:#000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #button
@@ -42,8 +42,8 @@ h2
 }
 #logo
 {
-    width: 4%;
-    height: 4%;
+    width: 60px;
+    height: 60px;
     margin-top: 10px;
     padding-right: 50%;
     padding-top: 2%;
@@ -84,7 +84,51 @@ h2
 section
 {
     width: 80%;
-    border-radius: 5%;
     height: 100%;
     margin: 0 auto;
+}
+/* #prof
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#profile
+{
+    background: brown;
+    text-align: left; 
+    width: 100%;
+    height: auto;
+    transition: 0.9s;
+
+} */
+
+
+#flex-con
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10000px;
+}
+
+#leftbar
+{
+    width: 100px;
+    height: 100%;
+    background: -webkit-linear-gradient(0, #000ecc41 33%, #00aeff44 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pr
+{
+    width: 200px;
+    flex-grow: 1;
+}
+#lofgo
+{
+    padding: 10%;
+    width: 60px;
+    height: 60px;
 }

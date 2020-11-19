@@ -16,6 +16,7 @@ if (isset($_POST["submit"])) {
             $e = $row['usersEmail'];
             $n = $row['usersName'];
             session_start();
+            $_SESSION['id'] = $row['usersId'];
             $_SESSION['uid'] = $u;
             $_SESSION['name'] = $n;
             $_SESSION['email'] = $e;

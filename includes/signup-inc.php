@@ -20,6 +20,7 @@ if (isset($_POST["submit"])) {
         }
     }
     matchpass($passwd, $Rpasswd);
+    checkemail($email);
     addtodb($conn, $login, $email, $passwd, $name);
 } else
     header('location: ../signup.php');

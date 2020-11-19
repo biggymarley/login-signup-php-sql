@@ -100,3 +100,29 @@ function addtodb($conn, $login, $email, $passwd , $name)
     mysqli_stmt_close($stmt);
     header('location: ../login.php');
 }
+
+
+
+function checkemail($email)
+{
+    $pat = '/.+[@].+[.].+/';
+    if (!preg_match($pat, $email))
+    {
+        header('location: ../signup.php?error=fixemail');
+        exit();
+    }
+    else
+        return;
+}
+
+function hardpwd($passwd)
+{
+    $pat = '/.+[@].+[.].+/';
+    if (!preg_match($pat, $passwd))
+    {
+        header('location: ../signup.php?error=fixpwd');
+        exit();
+    }
+    else
+        return;
+}
